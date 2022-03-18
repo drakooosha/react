@@ -2,8 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import './css/reset.css'
-import './css/basic.css'
+import './reset.css'
 
 ReactDOM.render(
   <React.StrictMode>
