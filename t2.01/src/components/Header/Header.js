@@ -4,7 +4,7 @@ import './Header.css'
 const Header = (props) => {
   return (
     <header className="header">
-      <h2 className="header__title">{props.title}</h2>
+      <h2 className="header__title">{props.headerText}</h2>
     </header>
   );
 }
