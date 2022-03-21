@@ -4,15 +4,31 @@
   border: 1px solid green;
   border-radius: 10px;
   padding: 20px;
+  transition: border-color 0.3s linear;
+}
+
+.content__item--red {
+  border-color: red;
+}
+
+.content__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid black;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 .content__title {
-  border-bottom: 1px solid black;
-  padding-bottom: 10px;
   font-size: 30px;
-  margin-bottom: 20px;
 }
 
 .content__text {
   font-size: 20px;
+}
+
+.content__check {
+  width: 20px;
+  height: 20px;
 }
