@@ -4,9 +4,7 @@ import './Card.css'
 
 const Card = (props) => {
   const [checked, setChecked] = useState(false);
-  const clickHandler = (event) => {
-    setChecked(event.target.checked); 
-  }
+  const clickHandler = () => setChecked(!checked);
 
   return (
     <div className={'content__item ' + (checked ? 'content__item--red' : '')}>
