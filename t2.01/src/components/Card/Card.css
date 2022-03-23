@@ -32,3 +32,26 @@
   width: 20px;
   height: 20px;
 }
+
+.content__nav {
+  display: flex;
+  align-items: center;
+}
+
+.content__edit {
+  padding: 0;
+  margin-right: 5px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  outline: transparent;
+  transition: transform 0.3s linear;
+}
+
+.content__edit svg {
+  display: block;
+}
+
+.content__edit:hover {
+  transform: scale(1.3);
+}
